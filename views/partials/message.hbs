@@ -1,0 +1,54 @@
+<style>
+  .alert {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 100;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%);
+    padding: 15px;
+    margin-top: 20px;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #0f0f0f;
+  }
+
+  .alert-success {
+    background-color: #07B34C;
+  }
+
+  .alert-failure {
+    background-color: #C71832;
+  }
+
+  .alert-pending {
+    background-color: #185ACC;
+  }
+</style>
+{{#if success}}
+  <div class="alert alert-success" role="alert">
+    Tu pago ha sido aceptado, Disfrute su compra
+    <button id="button-close">X</button>
+  </div>
+{{/if}}
+{{#if failure}}
+  <div class="alert alert-failure" role="alert">
+    Su pago ha sido rechazado
+    <button id="button-close">X</button>
+  </div>
+{{/if}}
+{{#if pending}}
+  <div class="alert alert-pending" role="alert">
+    Su compra está pendiente de pago
+    <button id="button-close">X</button>
+  </div>
+{{/if}}
+<script>
+  const btn = document.querySelector("#button-close");
+  const alert = document.querySelector(".alert");
+
+  btn.addEventListener("click", () => alert.remove());
+</script>

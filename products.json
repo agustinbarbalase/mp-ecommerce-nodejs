@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1234",
+    "title": "Samsung Galaxy S9",
+    "currency_id": "ARS",
+    "description": "Dispositivo móvil de Tienda e-commerce",
+    "img": "samsung-galaxy-s9-xxl.jpg",
+    "quantity": 1,
+    "unit_price": 15000
+  },
+  {
+    "id": "1234",
+    "title": "LG G6",
+    "currency_id": "ARS",
+    "img": "l6-g6.jpg",
+    "description": "Dispositivo móvil de Tienda e-commerce",
+    "quantity": 1,
+    "unit_price": 10000
+  },
+  {
+    "id": "1234",
+    "title": "iPhone 8",
+    "currency_id": "ARS",
+    "img": "iphone-8.jpg",
+    "description": "Dispositivo móvil de Tienda e-commerce",
+    "quantity": 1,
+    "unit_price": 16000
+  },
+  {
+    "id": "1234",
+    "title": "Motorola G5",
+    "currency_id": "ARS",
+    "img": "motorola-moto-g5-plus-1.jpg",
+    "description": "Dispositivo móvil de Tienda e-commerce",
+    "quantity": 1,
+    "unit_price": 9000
+  },
+  {
+    "id": "1234",
+    "title": "Moto G4",
+    "currency_id": "ARS",
+    "img": "motorola-moto-g4-3.jpg",
+    "description": "Dispositivo móvil de Tienda e-commerce",
+    "quantity": 1,
+    "unit_price": 8000
+  },
+  {
+    "id": "1234",
+    "title": "Sony Xperia XZ2",
+    "currency_id": "ARS",
+    "img": "sony-xperia-xz2.jpg",
+    "description": "Dispositivo móvil de Tienda e-commerce",
+    "quantity": 1,
+    "unit_price": 10000
+  }
+]
+
+
