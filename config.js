@@ -1,7 +1,7 @@
 require("dotenv").config();
 
 module.exports = {
-  port: 3000 || process.env.PORT,
+  port: process.env.PORT || 3000,
   domain: process.env.DOMAIN || 'http://localhost:3000',
   accessToken: process.env.ACCESS_TOKEN,
   integratorId: process.env.INTEGRATOR_ID,
