@@ -32,16 +32,6 @@
             class="as-producttile-tilehero with-paddlenav"
             style="float:left;"
           >
-            <div class="as-dummy-container as-dummy-img">
-              <img
-                src="./assets/wireless-headphones"
-                class="ir ir item-image as-producttile-image"
-                style="max-width: 70%;max-height: 70%;"
-                alt=""
-                width="445"
-                height="445"
-              />
-            </div>
             <div class="images mini-gallery gal5">
               <div class="as-isdesktop with-paddlenav with-paddlenav-onhover">
                 <div
@@ -51,12 +41,11 @@
                   <div class="as-tilegallery-element as-image-selected">
                     <div class=""></div>
                     <img
-                      src="./assets/003.jpg"
+                      src="/assets/img/{{img}}"
                       class="ir ir item-image as-producttile-image"
-                      alt=""
+                      alt="{{title}}"
                       width="445"
                       height="445"
-                      style="content:-webkit-image-set(url({{picture_url}}) 2x);"
                     />
                   </div>
                 </div>
@@ -104,5 +93,4 @@
     </div>
   </div>
 </div>
-<script src="https://www.mercadopago.com/v2/security.js" view="view"></script>
-<script src="/assets/js/getPreferences.js"></script>
+<script src="https://www.mercadopago.com/v2/security.js" view="item"></script>

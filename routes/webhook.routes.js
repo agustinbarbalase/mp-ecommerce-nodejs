@@ -1,8 +1,7 @@
 const { Router } = require("express");
+const webhookControllers = require("../controllers/webhook.controllers");
 const router = Router();
 
-router.post('/webhook', (req, res) => {
-  console.log(req.body);
-});
+router.post('/webhook', webhookControllers.postWebhook);
 
 module.exports = router;

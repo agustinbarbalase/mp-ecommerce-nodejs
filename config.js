@@ -22,8 +22,8 @@ module.exports = {
   backUrls: (domain) => {
     return {
       success: `${domain}/?statusPayment=success`,
-      failure: `${domain}//?statusPayment=failure`,
-      pending: `${domain}//?statusPayment=pending`,
+      failure: `${domain}/?statusPayment=failure`,
+      pending: `${domain}/?statusPayment=pending`,
     }
   },
   paymentMethods: {

@@ -29,7 +29,7 @@ module.exports = {
         back_urls: backUrls(domain),
         auto_return: "approved",
         payment_methods: paymentMethods,
-        notification_url: `${domain}/webhook`,
+        // notification_url: `${domain}/webhook`,
         external_reference: externalReference,
       })
       .then((response) => {
